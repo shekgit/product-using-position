@@ -125,3 +125,104 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+@media (max-width:1200px){
+    main{
+        max-width: 100%;
+        margin: 0 ;
+        padding: 0 ;
+    }
+    #navbar {
+        top: 0;
+        left: 5%;
+        margin: auto ;
+        padding: 1rem;
+        max-width: 100%;
+
+    }
+    #navbar a{
+text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        display: inline-block;
+        padding: 0 2rem;
+    }
+    #navbar #title{
+        margin: 0 ;
+        padding: 0 ;
+    }
+    #img1{
+        top: 37%;
+    } #img2{
+        top: 50%;
+    left: 30%;
+    }
+}
+@media (max-width:1024px){
+    #navbar{
+
+        max-width: 95%;
+    }
+    main{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    h1{
+        display:block;
+        padding: 3rem 0;
+        max-width: 100%;
+    }
+    img{
+
+        max-width: 70%;
+        max-height: 30%;
+    }
+    #img1{
+        top: 30%;
+        left: 65%;
+
+    } #img2{
+          top: 35%;
+          left: 35%;
+      }
+      #img3{
+          top: 50%;
+          left: 50%;
+      }
+
+}
+@media (max-width:768px){
+    #navbar{
+        max-width: 100%;
+        text-align: center;
+        left: 15%;
+
+    }
+    #navbar a{
+        margin: 0 ;
+        padding: 0 1rem;
+
+    }
+    #navbar #lookbook,  #navbar #news{
+        display: none;
+    }
+}
+@media (max-width:576px){
+    #navbar{
+        left: 10%;
+    }
+    #img1{
+        top: 30%;
+        left: 50%;
+    }
+    #img2{
+        top: 35%;
+        left: 27%;
+    }
+    #img3{
+        top: 50%;
+        left: 45%;
+    }
+    #navbar #about{
+        display: none;
+    }
+}
